@@ -1,0 +1,17 @@
+{
+  "name": "msievenpiper/challenge12",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "michaelsievenpiper",
+      "email": "msievenpiperdev@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "vlucas/phpdotenv": "^5.4",
+    "phroute/phroute": "^2.1"
+  }
+}

@@ -1,0 +1,114 @@
+/* Main body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 1em;
+    margin: auto;
+}
+
+#errorMessage, #successMessage {
+    display: none;
+}
+
+.message-item, .message-created {
+    padding: 0.2em;
+    margin-left: 0.2em;
+}
+
+.message-created {
+    margin-left: 0;
+    border-bottom: #515151 solid;
+}
+
+/* Login page */
+.login-content {
+    width: 40vh;
+}
+
+.login-form * {
+    margin-top: 0.3em;
+}
+
+.messages-container-item{
+    margin: .5em;
+    padding: .5em;
+    background-color: #ededed;
+    border-radius: 1em;
+    min-width: 300px;
+    height: fit-content;
+}
+
+/* Optionals */
+.warning, #errorMessage {
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #b00000;
+    background-color: #fff100;
+    width: 100%;
+    height: 100%;
+}
+
+.success, #successMessage {
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #00ff00;
+    width: 100%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+/* Navigation bar*/
+.main-nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    background-color: #333333;
+    min-height: 3em;
+    color: #dddddd;
+}
+
+.main-nav-list-item a:hover {
+    background-color: #111;
+}
+
+.main-nav-list-item a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #dddddd;
+}
+
